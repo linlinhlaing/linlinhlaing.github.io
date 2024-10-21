@@ -6,39 +6,15 @@
     <description>Recent content in Learning Notes on Lin Lin&#39;s blog</description>
     <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Oct 2024 10:47:06 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 13:33:21 -0500</lastBuildDate>
     <atom:link href="https://linlinhlaing.github.io/tags/learning-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Fourth Post</title>
-      <link>https://linlinhlaing.github.io/posts/my-fourth-post/</link>
-      <pubDate>Mon, 21 Oct 2024 10:47:06 -0500</pubDate>
-      <guid>https://linlinhlaing.github.io/posts/my-fourth-post/</guid>
-      <description>&lt;h2 id=&#34;fourth&#34;&gt;fourth&lt;/h2&gt;
-&lt;p&gt;fourth blog&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Third Post</title>
-      <link>https://linlinhlaing.github.io/posts/my-third-post/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://linlinhlaing.github.io/posts/my-third-post/</guid>
-      <description>&lt;h2 id=&#34;third&#34;&gt;third&lt;/h2&gt;
-&lt;p&gt;Third blog&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My first blog</title>
-      <link>https://linlinhlaing.github.io/posts/my-first-blog/</link>
-      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://linlinhlaing.github.io/posts/my-first-blog/</guid>
+      <title>first-post.md</title>
+      <link>https://linlinhlaing.github.io/posts/first-post.md/</link>
+      <pubDate>Mon, 21 Oct 2024 13:33:21 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/first-post.md/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;First blog&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My second post</title>
-      <link>https://linlinhlaing.github.io/posts/my-second-post/</link>
-      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://linlinhlaing.github.io/posts/my-second-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Second blog&lt;/p&gt;</description>
+&lt;p&gt;Python is dynamically typed, meaning both values and their types are stored in memory. Each time an operation is performed, including during a for-loop, Python checks the type of each element, which slows down execution. This frequent type checking and storage of type information make pure Python inefficient for handling large datasets compared to statically typed languages or optimized libraries.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
