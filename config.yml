@@ -1,0 +1,40 @@
+baseURL: "https://linlinhlaing.github.io/"
+languageCode: "en-us"
+title: "Lin Lin's blog"
+theme: "PaperMod"
+paginate: 5
+enableRobotsTXT: true
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Posts"
+      url: "/posts/"
+      weight: 3
+    - name: "Portfolio"
+      url: "https://linlinhlaing.com/"
+      weight: 4
+
+params:
+  env: "production"
+  description: "Hi, this is Lin Lin. I’m documenting my learning notes in this blog. As I navigate my job search, I want to share my insights and experiences in Python machine learning, hoping to help others on a similar path."
+  keywords:
+    - "Blog"
+    - "Portfolio"
+    - "PaperMod"
+  author: "Linlin"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  comments: false
+
+  social:
+    github: "https://github.com/linlinhlaing"
+    linkedin: "https://www.linkedin.com/in/lin-hlaing/"
+    medium: "https://medium.com/@linhlaing"
+    outlook: "mailto:linhlaing@outlook.com"
+permalinks:
+  posts: /posts/:slug/

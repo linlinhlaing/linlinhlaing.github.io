@@ -1,0 +1,70 @@
+{{- if lt hugo.Version "0.112.4" }}
+{{- errorf "=> hugo v0.112.4 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        
+        <style>
+            .welcome-message {
+                font-family: 'Open Sans', sans-serif;
+                margin: 20px 0;  /* Adjust margin for spacing */
+            }
+            .social-links {
+                margin: 20px 0;
+    }
+            .social-icons {
+                display: flex;
+                gap: 20px; /* Space between icons */
+    }
+            .social-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px; /* Width of the circle */
+                height: 50px; /* Height of the circle */
+                border-radius: 50%; /* Circular shape */
+                background-color: #333; /* Dark background color of the circle */
+                color: #fff; /* Icon color (white for contrast) */
+                font-size: 20px; /* Icon size */
+                transition: background-color 0.3s, transform 0.3s; /* Hover effects */
+                text-decoration: none; /* Remove underline from links */
+    }
+            .social-icon:hover {
+                /* background-color: #0072B1;  */
+                /* transform: scale(1.1);  */
+                color: black;
+                background: #00abf0;
+                color: #1f242d;
+                box-shadow: 0 0 20px #00abf0;
+                /* 00abf0 */
+    }
+
+
+        </style>
+        
+        {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq site.Params.defaultTheme `dark` -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+    {{- partialCached "header.html" . .Page -}}
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+</html>
