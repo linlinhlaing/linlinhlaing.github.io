@@ -24,7 +24,7 @@ params:
     - "Blog"
     - "Portfolio"
     - "PaperMod"
-  author: "Linlin"
+  author: "Lin Lin Hlaing"
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
