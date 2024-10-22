@@ -3,7 +3,7 @@ title: "Immutable vs mutable object"
 date: 2024-10-22T10:23:23-05:00
 
 draft: false
-tags: ["Python","Basic", "Learning notes"]
+tags: ["Python","Immutable","Mutable","Pass by value", "Pass by reference", "Learning notes"]
 categories: ["Python"]
 ---
 ### Pass by Value
