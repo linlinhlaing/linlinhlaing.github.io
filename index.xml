@@ -6,8 +6,26 @@
     <description>Recent content on Lin Lin&#39;s blog</description>
     <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2024 09:23:03 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 10:23:23 -0500</lastBuildDate>
     <atom:link href="https://linlinhlaing.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Immutable vs mutable object</title>
+      <link>https://linlinhlaing.github.io/posts/immutable-vs-mutable-object/</link>
+      <pubDate>Tue, 22 Oct 2024 10:23:23 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/immutable-vs-mutable-object/</guid>
+      <description>&lt;h3 id=&#34;pass-by-value&#34;&gt;Pass by Value&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The function receives a copy of the argument’s value.&lt;/li&gt;
+&lt;li&gt;Modifications to the parameter inside the function do not affect the original argument.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pass-by-reference&#34;&gt;Pass by Reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The function receives a reference (or address) to the actual argument.&lt;/li&gt;
+&lt;li&gt;Modifications to the parameter inside the function affect the original argument because both the argument and the parameter refer to the same memory location.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mutable-objects-like-lists-or-dictionaries&#34;&gt;Mutable Objects (like lists or dictionaries):&lt;/h3&gt;
+&lt;p&gt;The function can modify the object in place, and those changes will be reflected outside the function.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>while loop vs do-while loop</title>
       <link>https://linlinhlaing.github.io/posts/while-loop-vs-do-while-loop/</link>

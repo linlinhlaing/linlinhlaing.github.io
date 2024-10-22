@@ -82,7 +82,7 @@ lines of code starting **with a header line in control statement**.
 - Triple code နဲ့ မဟုတ်ဘဲ single quote နဲ့လဲရ but function ရဲ့ ပထမဆုံးလိုင်းမှတော့ရေးဖို့လို
 
 eg: ***docstrings using single quote***
-{{< figure src="static/images/first-post/docString-single.png" alt="docString-single" width="400" >}}
+{{< figure src="/images/first-post/docString-single.png" alt="docString-single" width="400" >}}
 
 eg: ***docstrings using triple quote***
 {{< figure src="/images/first-post/docString-triple.png" alt="docString-triple" width="400" >}}
