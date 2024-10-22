@@ -36,6 +36,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   comments: false
+  ShowToc: true
 
   social:
     github: "https://github.com/linlinhlaing"
