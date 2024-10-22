@@ -3,7 +3,7 @@ title: "Introduction to Python"
 date: 2024-10-21T17:12:25-05:00
 draft: false
 tags: ["Python","Basic", "Learning notes"]
-categories: ["python"]
+categories: ["Python"]
 ---
 
 ### Python
@@ -65,7 +65,7 @@ Reserved words to define syntax and structure of Python. Case sensitive and all 
 lines of code starting **with a header line in control statement**.
 
 - Header lines begin with **a key word** such as if, for, and while, and end with **a colon**, :
-{{< figure src="/images/suite.png" alt="Suite" width="400" >}}
+{{< figure src="/images/first-post/suite.png" alt="Suite" width="400" >}}
 
 
 **Block**: lines of code in functions.
@@ -82,10 +82,10 @@ lines of code starting **with a header line in control statement**.
 - Triple code နဲ့ မဟုတ်ဘဲ single quote နဲ့လဲရ but function ရဲ့ ပထမဆုံးလိုင်းမှတော့ရေးဖို့လို
 
 eg: ***docstrings using single quote***
-{{< figure src="/images/docString-single.png" alt="Suite" width="400" >}}
+{{< figure src="static/images/first-post/docString-single.png" alt="docString-single" width="400" >}}
 
 eg: ***docstrings using triple quote***
-{{< figure src="/images/docString-triple.png" alt="Suite" width="400" >}}
+{{< figure src="/images/first-post/docString-triple.png" alt="docString-triple" width="400" >}}
 
 - For efficient coding and code reuse, use classes! Creating **classes** is the beauty of coding and determines **your coding capacity.**
 
