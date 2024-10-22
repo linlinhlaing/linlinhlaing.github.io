@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Image Processing Libraries on Lin Lin&#39;s blog</title>
+    <link>https://linlinhlaing.github.io/tags/image-processing-libraries/</link>
+    <description>Recent content in Image Processing Libraries on Lin Lin&#39;s blog</description>
+    <generator>Hugo -- 0.136.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2024 15:39:52 -0500</lastBuildDate>
+    <atom:link href="https://linlinhlaing.github.io/tags/image-processing-libraries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Processing Libraries</title>
+      <link>https://linlinhlaing.github.io/posts/image-processing-libraries/</link>
+      <pubDate>Tue, 22 Oct 2024 15:39:52 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/image-processing-libraries/</guid>
+      <description>&lt;h4 id=&#34;opencv--mainly-used-in-tensorflow&#34;&gt;OpenCV → mainly used in TensorFlow&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Purpose: Computer vision and image processing.&lt;/li&gt;
+&lt;li&gt;Features: Real-time operations, image transformations, filtering, object detection, edge detection.&lt;/li&gt;
+&lt;li&gt;Installation: &lt;code&gt;pip install opencv-python&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pillow-pil--pytorch&#34;&gt;Pillow (PIL) → PyTorch&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Purpose: Image manipulation.&lt;/li&gt;
+&lt;li&gt;Features: Open, save, and process many image file formats; resizing, cropping, and rotating images.&lt;/li&gt;
+&lt;li&gt;Installation: &lt;code&gt;pip install Pillow&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;from-glob-import-glob-vs-import-glob&#34;&gt;&lt;strong&gt;from glob import glob vs import glob&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;from glob import glob&lt;/code&gt;&lt;/strong&gt;: Imports only the &lt;code&gt;glob()&lt;/code&gt; function, so you can call it directly as &lt;code&gt;glob()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;import glob&lt;/code&gt;&lt;/strong&gt;: Imports the whole &lt;code&gt;glob&lt;/code&gt; module, so you need to call the function as &lt;code&gt;glob.glob()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;matplotlibpyplot-vs-matplotlibpylab&#34;&gt;&lt;strong&gt;matplotlib.pyplot vs matplotlib.pylab&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;matplotlib.pyplot&lt;/code&gt;&lt;/strong&gt;: Preferred for most plotting tasks; provides a clean, modular interface for creating and customizing plots.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;matplotlib.pylab&lt;/code&gt;&lt;/strong&gt;: Combines plotting with numerical operations; less commonly used due to its less modular approach and potential for namespace conflicts.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
