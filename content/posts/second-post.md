@@ -5,7 +5,8 @@ draft: false
 tags: ["Python","Basic","while loop","do-while loop", "Learning notes"]
 categories: ["Python"]
 ---
-### while loop vs do-while loop
+
+### `while` Loop:
 {{< figure src="/images/second-post/1.png" alt="structure" >}}
 
 {{< figure src="/images/second-post/2.png" alt="structure" >}}
@@ -15,7 +16,8 @@ This is a standard `while` loop because:
 - The condition `i < 5` is checked before each iteration.
 - If `i` were greater than or equal to 5 from the start, the loop would not execute even once.
 
-### Structure in python
+### `do-while` Loop:
+Python does not have a built-in do-while loop like some other programming languages (e.g., C, C++, or Java). However, you can mimic the behavior of a do-while loop using a while loop with a condition that ensures the loop executes at least once.
 {{< figure src="/images/second-post/3.png" alt="structure" >}}
 {{< figure src="/images/second-post/4.png" alt="structure" >}}
 
