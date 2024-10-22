@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Learning Notes on Lin Lin&#39;s blog</title>
+    <link>https://linlinhlaing.github.io/tags/learning-notes/</link>
+    <description>Recent content in Learning Notes on Lin Lin&#39;s blog</description>
+    <generator>Hugo -- 0.136.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2024 10:23:23 -0500</lastBuildDate>
+    <atom:link href="https://linlinhlaing.github.io/tags/learning-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Immutable vs mutable object</title>
+      <link>https://linlinhlaing.github.io/posts/immutable-vs-mutable-object/</link>
+      <pubDate>Tue, 22 Oct 2024 10:23:23 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/immutable-vs-mutable-object/</guid>
+      <description>&lt;h3 id=&#34;pass-by-value&#34;&gt;Pass by Value&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The function receives a copy of the argument’s value.&lt;/li&gt;
+&lt;li&gt;Modifications to the parameter inside the function do not affect the original argument.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pass-by-reference&#34;&gt;Pass by Reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The function receives a reference (or address) to the actual argument.&lt;/li&gt;
+&lt;li&gt;Modifications to the parameter inside the function affect the original argument because both the argument and the parameter refer to the same memory location.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mutable-objects-like-lists-or-dictionaries&#34;&gt;Mutable Objects (like lists or dictionaries):&lt;/h3&gt;
+&lt;p&gt;The function can modify the object in place, and those changes will be reflected outside the function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>while loop vs do-while loop</title>
+      <link>https://linlinhlaing.github.io/posts/while-loop-vs-do-while-loop/</link>
+      <pubDate>Tue, 22 Oct 2024 09:23:03 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/while-loop-vs-do-while-loop/</guid>
+      <description>&lt;h3 id=&#34;while-loop&#34;&gt;&lt;code&gt;while&lt;/code&gt; Loop:&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/1.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/2.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;This is a standard &lt;code&gt;while&lt;/code&gt; loop because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The condition &lt;code&gt;i &amp;lt; 5&lt;/code&gt; is checked before each iteration.&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;i&lt;/code&gt; were greater than or equal to 5 from the start, the loop would not execute even once.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;do-while-loop&#34;&gt;&lt;code&gt;do-while&lt;/code&gt; Loop:&lt;/h3&gt;
+&lt;p&gt;Python does not have a built-in do-while loop like some other programming languages (e.g., C, C++, or Java). However, you can mimic the behavior of a do-while loop using a while loop with a condition that ensures the loop executes at least once.
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/3.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/4.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Python</title>
+      <link>https://linlinhlaing.github.io/posts/introduction-to-python/</link>
+      <pubDate>Mon, 21 Oct 2024 17:12:25 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/introduction-to-python/</guid>
+      <description>&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Born on February 20, 1991.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An open source (free), high-level, object-oriented, interpreted and general-purpose dynamic programming language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Easiest to learn among programming languages! (But slow!)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gaining popularity over the past ten years, especially for ML and DL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;python-version&#34;&gt;Python version&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For machine learning, particularly neural network deep learning, it’s recommended to use Python 3.8 due to compatibility issues with TensorFlow in later Python versions. Many versions of TensorFlow work more reliably with Python 3.8, avoiding potential problems found in Python 3.9 or newer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;applications-of-python&#34;&gt;Applications of Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Website development&lt;/li&gt;
+&lt;li&gt;Software and Mobile Apps development&lt;/li&gt;
+&lt;li&gt;Scientific and numeric computing, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;python-libraries&#34;&gt;Python libraries&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;NumPy&lt;/strong&gt; - for numerical computation&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
