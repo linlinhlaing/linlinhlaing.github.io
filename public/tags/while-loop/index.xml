@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>While Loop on Lin Lin&#39;s blog</title>
+    <link>https://linlinhlaing.github.io/tags/while-loop/</link>
+    <description>Recent content in While Loop on Lin Lin&#39;s blog</description>
+    <generator>Hugo -- 0.136.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2024 09:23:03 -0500</lastBuildDate>
+    <atom:link href="https://linlinhlaing.github.io/tags/while-loop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>while loop vs do-while loop</title>
+      <link>https://linlinhlaing.github.io/posts/while-loop-vs-do-while-loop/</link>
+      <pubDate>Tue, 22 Oct 2024 09:23:03 -0500</pubDate>
+      <guid>https://linlinhlaing.github.io/posts/while-loop-vs-do-while-loop/</guid>
+      <description>&lt;h3 id=&#34;while-loop&#34;&gt;&lt;code&gt;while&lt;/code&gt; Loop:&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/1.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/2.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;This is a standard &lt;code&gt;while&lt;/code&gt; loop because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The condition &lt;code&gt;i &amp;lt; 5&lt;/code&gt; is checked before each iteration.&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;i&lt;/code&gt; were greater than or equal to 5 from the start, the loop would not execute even once.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;do-while-loop&#34;&gt;&lt;code&gt;do-while&lt;/code&gt; Loop:&lt;/h3&gt;
+&lt;p&gt;Python does not have a built-in do-while loop like some other programming languages (e.g., C, C++, or Java). However, you can mimic the behavior of a do-while loop using a while loop with a condition that ensures the loop executes at least once.
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/3.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://linlinhlaing.github.io/images/second-post/4.png&#34;
+         alt=&#34;structure&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
